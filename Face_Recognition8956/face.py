@@ -40,7 +40,7 @@ encodeListKnownWithids = [encodeListKnown,studentIds]
 print("Encodeing ending ...")
 
 
-file = open("EncodeFile","wb")
+file = open("EncodeFile.p",'wb')
 pickle.dump(encodeListKnownWithids,file)
 file.close()
 print("file saved")
